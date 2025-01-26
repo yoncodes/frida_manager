@@ -1,0 +1,32 @@
+{
+  "name": "frida-agent-manager",
+  "version": "1.0.0",
+  "description": "Spawned from a frida dumper but can be used in other projects",
+  "private": true,
+  "type": "module",
+  "main": "dist/agent/index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc && tsc-alias",
+    "clean": "rimraf dist _agent.js",
+    "watch": "frida-compile agent/index.ts -o _agent.js -w",
+    "attach": "frida -U -n \"$1\" -l _agent.js --runtime=v8",
+    "spawn": "frida -U -f \"$1\" -l _agent.js --runtime=v8",
+    "start": "node dist/agent/index.js"
+  },
+  "devDependencies": {
+    "@types/frida-gum": "^18.7.2",
+    "@types/node": "^22.10.7",
+    "@types/source-map": "^0.5.2",
+    "esbuild": "^0.17.11",
+    "frida": "^16.1.3",
+    "frida-compile": "^16.4.1",
+    "frida-il2cpp-bridge": "^0.9.1",
+    "rimraf": "^6.0.1",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "source-map": "^0.7.4"
+  }
+}
