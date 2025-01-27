@@ -22,10 +22,12 @@ Plugins.bypassShellCheck();
 
 
 Il2Cpp.perform(() => {
-
-});
     
-
+    
+    
+        
+    });
+    
 
 rpc.exports = {
     start: async function () {
