@@ -2,7 +2,7 @@
 
 ## About
 
-simple tool to help you manage frida. wanted a easier way to scale how to test apps. you can just convert your scripts or helper functions into a plugin format and use anywhere.
+simple tool to help you manage frida. wanted an easier way to scale how to test apps. you can just convert your scripts or helper functions into a plugin format and use anywhere.
 useful for when testing new stuff. windows and ios support planned someday.
 
 ## Why?
