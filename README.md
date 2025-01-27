@@ -31,3 +31,7 @@ needs my modified version of [Il2cpp-frida-bridge](https://github.com/yoncodes/f
 ## Notes
 
 Part of another Project I'm working on for a friend.
+
+## Side Note
+
+Don't expect it to dump every unity game out the gate. more tests are needed. for example if exports are stripped we need to add a patch/plugin to support the app.
