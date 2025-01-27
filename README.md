@@ -2,16 +2,21 @@
 
 ## About
 
-- simple tool to manage plugins 
-- added a frida dumper feature
+simple tool to help you manage frida. wanted a easier way to scale how to test apps. you can just convert your scripts or helper functions into a plugin format and use anywhere.
+useful for when testing new stuff. windows and ios support planned someday.
 
 ## Why?
 - some apps hate frida and this is suppose to help deal with that
-- keeps your code from getting cluttered with potentially thousands lines of code
+- keeps your projects from getting cluttered with potentially thousands lines of code
 
 ## Who's this for?
 - for people who just want a drag and drop approach when testing apps.
 - you can make your own plugins to suite your needs.
+
+## Features
+- added and few test plugins to get you started
+- most of them are just scripts from [codeshare](https://codeshare.frida.re/)
+- added a dumper for unity based games.
 
 ## Build
 - npm run build 
