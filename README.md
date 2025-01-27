@@ -17,9 +17,12 @@
 
 ## Screenshots
 
+### example output for dumps
+![example dump](screenshots/example.png)
+
+### what the classes should look
 ![dump format](screenshots/dump_format.png)
 
-![example dump](screenshots/example.png)
 
 ## Tools needed
 
