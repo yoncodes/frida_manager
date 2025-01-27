@@ -33,7 +33,7 @@ useful for when testing new stuff. windows and ios support planned someday.
 ### example output for dumps
 ![example dump](screenshots/example.png)
 
-### what the classes should look
+### what the classes should look like
 ![dump format](screenshots/dump_format.png)
 
 
