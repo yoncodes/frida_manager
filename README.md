@@ -2,8 +2,16 @@
 
 ## About
 
--  simple tool to manage plugins 
+- simple tool to manage plugins 
 - added a frida dumper feature
+
+## Why?
+- some apps hate frida and this is suppose to help deal with that
+- keeps your code from getting cluttered with potentially thousands lines of code
+
+## Who's this for?
+- for people who just want a drag and drop approach when testing apps.
+- you can make your own plugins to suite your needs.
 
 ## Build
 - npm run build 
