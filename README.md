@@ -14,7 +14,7 @@ useful for when testing new stuff. windows and ios support planned someday.
 - you can make your own plugins to suite your needs.
 
 ## Features
-- added and few test plugins to get you started
+- added a few test plugins to get you started
 - most of them are just scripts from [codeshare](https://codeshare.frida.re/)
 - added a dumper for unity based games.
 
