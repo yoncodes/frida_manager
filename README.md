@@ -15,6 +15,11 @@
 ## How to dump
 - type rpx.exports.start();
 
+## Screenshots
+
+![dump format](screenshots/dump_format.png)
+
+![example dump](screenshots/example.png)
 
 ## Tools needed
 
